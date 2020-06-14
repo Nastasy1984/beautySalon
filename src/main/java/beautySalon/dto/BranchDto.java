@@ -1,4 +1,4 @@
-package dto;
+package beautySalon.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -1,7 +1,6 @@
-package service;
+package beautySalon.service;
 
-import dto.AddressDto;
-import dto.BranchDto;
+import beautySalon.dto.BranchDto;
 
 import java.util.List;
 

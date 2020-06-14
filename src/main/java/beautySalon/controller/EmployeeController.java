@@ -1,11 +1,10 @@
-package controller;
+package beautySalon.controller;
 
-import dto.EmployeeDto;
-import dto.EmployeeDto;
+import beautySalon.dto.EmployeeDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import service.EmployeeService;
+import beautySalon.service.EmployeeService;
 
 import javax.validation.Valid;
 import javax.websocket.server.PathParam;

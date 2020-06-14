@@ -1,9 +1,9 @@
-package controller;
+package beautySalon.controller;
 
-import dto.ServiceDto;
+import beautySalon.dto.ServiceDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import service.ServiceService;
+import beautySalon.service.ServiceService;
 
 import javax.validation.Valid;
 import javax.websocket.server.PathParam;

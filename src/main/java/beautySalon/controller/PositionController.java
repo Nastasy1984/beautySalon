@@ -1,10 +1,10 @@
-package controller;
+package beautySalon.controller;
 
-import dto.PositionDto;
+import beautySalon.dto.PositionDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import service.PositionService;
+import beautySalon.service.PositionService;
 
 import javax.validation.Valid;
 import javax.websocket.server.PathParam;

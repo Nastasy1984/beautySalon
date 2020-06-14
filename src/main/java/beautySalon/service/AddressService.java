@@ -1,8 +1,7 @@
-package service;
+package beautySalon.service;
 
-import dto.AddressDto;
+import beautySalon.dto.AddressDto;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public interface AddressService {

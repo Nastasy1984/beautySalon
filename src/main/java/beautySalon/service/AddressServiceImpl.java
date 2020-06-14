@@ -1,6 +1,6 @@
-package service;
+package beautySalon.service;
 
-import dto.AddressDto;
+import beautySalon.dto.AddressDto;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

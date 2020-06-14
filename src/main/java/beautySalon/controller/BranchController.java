@@ -1,12 +1,10 @@
-package controller;
+package beautySalon.controller;
 
-import dto.AddressDto;
-import dto.BranchDto;
+import beautySalon.dto.BranchDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import service.AddressService;
-import service.BranchService;
+import beautySalon.service.BranchService;
 
 import javax.validation.Valid;
 import javax.websocket.server.PathParam;
