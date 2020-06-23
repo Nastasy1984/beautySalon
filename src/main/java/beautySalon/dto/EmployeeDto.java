@@ -19,9 +19,9 @@ public class EmployeeDto implements Serializable {
     @NotBlank(message="Position cannot be empty")
     @JsonProperty("position")
     private PositionDto position;
-    @JsonProperty("salary")
+    /*@JsonProperty("salary")
     //is it better to use int or Integer here???
-    private Integer salary;
+    private Integer salary;*/
 
     public EmployeeDto() {
     }
@@ -66,11 +66,11 @@ public class EmployeeDto implements Serializable {
         this.position = position;
     }
 
-    public Integer getSalary() {
+    /*public Integer getSalary() {
         return salary;
     }
 
     public void setSalary(Integer salary) {
         salary = salary;
-    }
+    }*/
 }

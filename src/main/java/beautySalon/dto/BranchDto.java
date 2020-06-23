@@ -14,8 +14,6 @@ public class BranchDto implements Serializable {
     private AddressDto address;
     @JsonProperty("phoneNumber")
     private String phoneNumber;
-    @JsonProperty("services")
-    private List<ServiceDto> services;
 
     public BranchDto() {
     }
@@ -52,11 +50,5 @@ public class BranchDto implements Serializable {
         this.phoneNumber = phoneNumber;
     }
 
-    public List<ServiceDto> getServices() {
-        return services;
-    }
 
-    public void setServices(List<ServiceDto> services) {
-        this.services = services;
-    }
 }
